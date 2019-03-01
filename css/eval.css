@@ -1,0 +1,65 @@
+.total
+{	
+	text-align: right;
+ 	font-size: 18px;
+	margin-right: 3%; 
+ 	margin:20px; 
+ 	width: 50%;
+}
+.divbox
+{
+	margin: 0%;
+	padding: 0%;
+ 	border:solid #ddd 1px;
+ 	margin-top: 20px;
+ 	display: block;
+} 
+.divtitle
+{
+	background-color: #ff7733;
+	margin-top: 0px;
+}
+.divsubtitle
+{
+	color: white;
+	margin-left: 2%
+}
+.divsubtitle>label
+{
+	margin-left:68%; 
+	color:#eeeeee;
+}
+.divbox td
+{
+    width: 50%;
+}
+.divbox td>label
+{
+    width: 60%;
+    font-style: italic;
+    text-align: center;
+    color: #442222;
+}
+.divbox  input[type=text],input[type=number]
+{
+	width:30%;
+   float: right;
+}
+.divbox small
+{
+    color: #777777;
+}
+.divbox .table
+{
+    margin-bottom: 0px;
+}
+.divbox .table>tbody>tr>td
+{
+    border-top: none;
+}
+.divbox input[type=submit],input[type=reset]
+{
+    width: 30%;
+    align-self: right;
+	margin: 10px;
+}

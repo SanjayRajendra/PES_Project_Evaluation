@@ -1,0 +1,124 @@
+a
+{
+    font-weight: bold;
+    color: #ff7733;
+}
+@media (max-width: 500px)
+{
+    .img-responsive
+    {
+    	width: 100%;
+    }
+}
+@media (min-width: 500px)
+{
+    .img-responsive
+    {
+     	width: 50%;
+    }
+}
+.page-header
+{
+    margin: auto;
+}
+.page-header .col-sm-2
+{
+    padding-left:0px ! important; 
+}
+.page-header .col-sm-10
+{
+    padding-right:0px ! important; 
+}
+.label1
+{
+    color: #ff7733;
+    font-size: 15px;
+    border:solid #ff7733 1px;
+    margin-bottom: 0px;
+    border-radius:  15% 0% 0% 15% ;
+    padding: 2px;
+    padding-left:3px;
+}
+.label2
+{
+    color: white;
+    font-size: 15px;
+    background-color: #ff7733;
+    margin-bottom: 0px;
+    border-radius:  0% 15% 15% 0% ;
+    padding: 2px;
+    padding-right:3px;
+    border:solid #ff7733 1px;
+    float:left;
+}
+.label2:hover
+{
+    background-color: orange;
+    color: white;
+}
+.label3
+{
+background-color: #ff7733;
+color: white;
+font-size: 15px;
+border:solid #ff7733 1px;
+margin-bottom: 0px;
+border-radius:15% 0% 0% 15% ;
+padding: 2px;
+padding-left:3px;
+}
+.label4
+{
+color: #ff7733;
+font-size: 15px;
+margin-bottom: 0px;
+border-radius:0% 15% 15% 0% ;
+padding: 2px;
+padding-right:3px;
+border:solid #ff7733 1px;
+float:left;
+
+}
+.label4:hover
+{
+background-color: orange;
+color: white;
+}
+.modal-body tbody>tr>td
+{
+    border-top: none;
+}
+.btm
+{
+    margin-top: 10px;
+}
+.modal-fullscreen fade
+{
+    margin: 0px;
+    padding: 0px;
+}
+.btn-link
+{
+    padding: 0px;
+    margin:0px;
+}
+#srn
+{
+   text-transform: uppercase;
+}
+.form-group .nav-tabs
+{
+    border:solid #ddd 1px;
+}
+span
+{
+    font-weight: bold;
+}
+.table
+{
+    margin-bottom:0%;
+}      
+td
+{
+    font-size: 14px;
+}
